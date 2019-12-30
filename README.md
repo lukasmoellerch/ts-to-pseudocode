@@ -1,4 +1,4 @@
-# Pseudo Editor
+# ts-to-pseudocode 
 A small tool that tries to convert typescript (or javascript) into equivalent pseudocode.
 
 Demo: [https://pseudocode.lukas-moeller.ch](https://pseudocode.lukas-moeller.ch)
@@ -17,7 +17,6 @@ Only exported functions are converted.
 - `for(var i = 0; i < x; i++) {}`
 - Mathematical operators are converted accordingly (+, -, *, /, &&, ||, !, ^)
 	- All divisions are converted into fractions
-- 
 
 ## Dependencies
 Awesome projects this editor depends on:
