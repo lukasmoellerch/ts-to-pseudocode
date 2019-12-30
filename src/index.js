@@ -1,8 +1,7 @@
 import { katex } from "katex";
 import * as monaco from 'monaco-editor';
+import * as pseudo from "pseudocode";
 import Split from 'split.js';
-import "./pseudocode/";
-import * as pseudo from "./pseudocode/";
 import "./styles.css";
 import { convertString, TexWriter } from "./tslatex";
 
